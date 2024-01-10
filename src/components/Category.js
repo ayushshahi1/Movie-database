@@ -46,7 +46,7 @@ if (isError){
           <h1>{data?.page}</h1>
           <button
           onClick={()=> nav(`/moviePage/${category ?? 'now_playing'}/${data.page + 1}`)}
-          disabled = {data?.page === data?.total_pages ? true : false}>Next</button>
+          disabled = {data?.page === data?.total_pages ? true : false}>Net</button>
         </div>
        
     </>
