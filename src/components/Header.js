@@ -34,7 +34,7 @@ const Header = () => {
           }
         } to='/movieCategory/popular'>Popular</NavLink>
         <NavLink to='/movieCategory/top_rated'>Top-Rated</NavLink>
-        <NavLink to='/movieCategory/upcoming'>Upcoming</NavLink>
+        <NavLink to='/movieCategory/upcoming'>Upcomin</NavLink>
 
         <form onSubmit={formik.handleSubmit}>
           <div className="relative flex gap-2">
